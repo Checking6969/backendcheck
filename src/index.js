@@ -12,7 +12,7 @@ app.use(express_1.default.json());
 app.get('/', (req, res) => {
     res.send("got Cd and here is the dummy get request");
 });
-app.listen(3000, () => {
+app.listen(443, () => {
     console.log('server is running and here we gos');
 });
 //# sourceMappingURL=index.js.map

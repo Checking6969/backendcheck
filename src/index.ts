@@ -10,6 +10,6 @@ app.use(express.json());
 app.get('/', (req:Request, res:Response) => {
 		res.send("got Cd and here is the dummy get request")
 });
-app.listen(3000, () => {
+app.listen(443, () => {
 	console.log('server is running and here we gos')
 })
